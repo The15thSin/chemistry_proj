@@ -1,0 +1,103 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #98e8cd;
+    margin: 0px;
+    background-image: url("/photos/bg.png");
+    background-blend-mode:darken;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1{cursor:default;}
+h4{cursor:default;}
+
+.header{
+    /* border: 2px solid white; */
+    margin: 40px;
+}
+
+.logo{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.logob{
+    background-color: #000000;
+    border: none;
+    box-shadow: 0 0 92px #0fa;
+    border-radius: 25px;
+    cursor: none;
+}
+
+.options{
+    display: block;
+    float: right;
+    margin: 10px;
+    padding: 5px;
+}
+
+.b{
+    cursor: pointer;
+    padding: 5px;
+    background-color: #000000;
+    border: none;
+    color: #98e8cd;
+    text-align: center;
+    display: float;
+    font-size: large;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.b:hover{
+    background-color: #98e8cd;
+    color: black;
+    border: 2px solid ;
+}
+
+.name{
+    color: white;
+    margin-top: 150px;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+mark{
+    color: #98e8cd;
+    background-color: #02091200;
+    text-shadow:
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.b2{
+    height: 50px;
+    width: 200px;
+    margin: 50px;
+    margin-top: 120px;
+    background-color: #020912;
+    border-radius: 25px;
+    border-color: #98e8cd;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow:
+    0 0 92px #0fa;
+}
+
+.b2:hover{
+    background-color: #98e8cd;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px)
+{
+
+
+
+}
