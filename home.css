@@ -53,6 +53,7 @@ h4{cursor:default;}
     background-color: #98e8cd;
     color: black;
     border: 2px solid ;
+    transition: 0.2s;
 }
 
 .name{
@@ -93,6 +94,7 @@ mark{
     color: black;
     border: 2px solid black;
     font-weight: bold;
+    transition: 0.2s;
 }
 
 @media only screen and (max-width: 600px)
