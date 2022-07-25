@@ -38,14 +38,14 @@ h4{cursor:default;}
 
 .b{
     cursor: pointer;
-    padding: 5px;
+    padding: 10px;
     background-color: #000000;
     border: none;
     color: #98e8cd;
     text-align: center;
     display: float;
     font-size: large;
-    border-radius: 12px;
+    border-radius: 5px;
     border: 2px solid black;
 }
 
@@ -87,6 +87,7 @@ mark{
     cursor: pointer;
     box-shadow:
     0 0 92px #0fa;
+    font-size: large;
 }
 
 .b2:hover{
